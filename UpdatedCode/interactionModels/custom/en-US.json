@@ -1,0 +1,112 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "timeframe",
+              "type": "timeframe"
+            }
+          ],
+          "name": "checkAmount",
+          "samples": [
+            "how much money did i spend {timeframe}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "affirmation",
+          "samples": [
+            "I\u0027ve been thinking of gambling recently should I",
+            "is it a good idea to go gambling",
+            "Is gambling moral"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "simulation",
+          "samples": [
+            "i need to gamble please help",
+            "can you provide a gambling fix for me"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "stop",
+          "samples": [
+            "i want to quit gambling",
+            "is there a helpline for gambling",
+            "I struggle with a gambling addiction can you help"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "last year"
+              }
+            },
+            {
+              "name": {
+                "value": "this year"
+              }
+            },
+            {
+              "name": {
+                "value": "last month"
+              }
+            },
+            {
+              "name": {
+                "value": "last week"
+              }
+            },
+            {
+              "name": {
+                "value": "yesterday"
+              }
+            }
+          ],
+          "name": "timeframe"
+        }
+      ],
+      "invocationName": "check amount"
+    }
+  }
+}

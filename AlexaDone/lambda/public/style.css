@@ -1,0 +1,29 @@
+header{
+    background-color: steelblue;
+}
+#main{
+    background-color: lightblue;
+}
+body{
+    background-color: grey;
+
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+}
+
+header p{
+    font-size: 28px;
+}
+
+h2{
+    font-size: 40px;
+
+    padding: 12px;
+}
+
+p{
+    font-size: 20px;
+}
